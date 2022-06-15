@@ -1,9 +1,10 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 import './Counter.css'
 
 const Counter = () => {
   const [count, setCount] = useState<number>(0)
+
   return (
     <div>
       <h3 className='the-heading'>Update the count and edit src/App.tsx, state is preserved!!!</h3>
@@ -12,4 +13,4 @@ const Counter = () => {
   )
 }
 
-export default Counter;
+export default Counter
