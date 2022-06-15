@@ -7,7 +7,7 @@ const Counter = () => {
 
   return (
     <div>
-      <h3 className='the-heading'>Update the count and edit src/App.tsx, state is preserved!!!</h3>
+        <h3 className='the-heading'>Update the count and edit src/App.tsx, state is preserved!!!</h3>
       <button onClick={() => setCount((c) => c + 1)}>Count - {count}</button>
     </div>
   )
