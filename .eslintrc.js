@@ -18,5 +18,24 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: ['react', '@typescript-eslint'],
-  rules: {}
+  rules: {},
+  overrides: [
+    {
+      files: ['*.test.tsx'],
+      globals: {
+        expect: true,
+        test: true,
+        describe: true,
+        afterEach: true,
+        jest: true,
+        it: true,
+        beforeEach: true,
+        beforeAll: true,
+        afterAll: true,
+        shallow: true,
+        snapshot: true,
+        all: true
+      }
+    }
+  ]
 }
