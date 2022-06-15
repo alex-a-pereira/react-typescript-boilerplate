@@ -5,7 +5,7 @@
   "author": "Alex Pereira <alexapereira14@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack serve  --hot --open",
+    "start": "webpack serve --hot --open",
     "lint": "eslint .",
     "test": "jest -c jest.config.js",
     "build": "webpack --config webpack.config.js --mode development"
