@@ -1,6 +1,6 @@
-# Parent Web
+# React Web Boilerplate
 
-This is currently only a sample workspace to create a React app using TS without
+This boilerplate is used to create a React app using TS without
 using create-react-app
 
 ## Build pipeline

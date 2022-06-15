@@ -1,5 +1,5 @@
 {
-  "name": "parent-web",
+  "name": "react-ts-boilerplate",
   "version": "0.0.1",
   "main": "index.js",
   "author": "Alex Pereira <alexapereira14@gmail.com>",
@@ -8,7 +8,8 @@
     "start": "webpack serve --hot --open",
     "lint": "eslint .",
     "test": "jest -c jest.config.js",
-    "build": "webpack --config webpack.config.js --mode development"
+    "build": "webpack --config webpack.config.js --mode development",
+    "build-prod": "NODE_ENV=production webpack --config webpack.config.js"
   },
   "engines": {
     "node": "18.3.0"
