@@ -1,0 +1,7 @@
+{
+  "name": "parent-web",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Alex Pereira <alexapereira14@gmail.com>",
+  "license": "MIT"
+}
